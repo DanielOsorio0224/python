@@ -6,6 +6,12 @@ class Coche:
     fuerza = 1399
     capacidad = 5
 
+    def setColor(self,color):
+        self.color = color
+
+    def getColor(self):
+        return self.color    
+
     def acelerar(self):
         self.velocidad += 1
 
@@ -19,3 +25,8 @@ coche = Coche()
 
 coche.acelerar()
 print(coche.getVelocidad())
+coche.setColor("Azul")
+print(coche.getColor())
+
+coche2 = Coche()
+print(coche2.getColor())
