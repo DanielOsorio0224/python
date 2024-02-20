@@ -6,6 +6,14 @@ class Coche:
     fuerza = 1399
     capacidad = 5
 
+    def __init__(self,color=color,marca=marca,modelo=modelo,velocidad=velocidad,fuerza=fuerza,capacidad=capacidad):
+        self.color = color
+        self.marca = marca
+        self.modelo = modelo
+        self.velocidad = velocidad
+        self.fuerza = fuerza
+        self.capacidad = capacidad
+
     def setColor(self,color):
         self.color = color
 
